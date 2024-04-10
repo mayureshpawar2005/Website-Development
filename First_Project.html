@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+      
+      .navbar-nav {
+        justify-content: center;
+      }
+      .navbar-nav.sm-icons i {
+        font-size: x-large;
+        background-color: gold;
+        padding: 14px;
+        border-radius: 10px;
+      }
+      .hero {
+        margin: 10px;
+        padding: 5px;
+        text-align: justify;  
+      }
+      
+      .root {
+        background-image: url(./hello/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+        min-height: 105vh;
+        background-size: cover;
+        /* background-color: aqua;  */
+        height: max-content;
+        width: 98.5vw; 
+        position: relative;  
+      }
+      
+      .hello {
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        font-size: small;
+        margin: 10px;
+        padding: 10px;
+      }
+     
+      .root h1 {
+        color: white;
+        position: absolute;
+        font-size: xx-large;
+        font-style: bold;
+        margin: 10px;
+        padding: 10px;
+        top: 23%;
+        left: 10%;
+        margin: 20px;
+        align-self: left;
+      }
+      .root p {
+        color: antiquewhite;
+        position: absolute;
+        top: 30%;
+        left: 8%;
+        margin: 50px;
+        /* padding: 20px; */
+      }
+      .root p button  {
+        bottom: 20000%;
+        top: 1000%;
+        left: 5%;
+        justify-items: center;
+        position: relative;
+        margin-top: 100px;
+        padding: 20px;
+        background-color: coral;
+        border-radius: 10px;
+      }
+      .demo {
+        height: 1700px;
+        position: relative;
+       background-color:  gray;
+       
+      }
+      .aa {
+        background-image: url(./arif-riyanto-G1N9kDHqBrQ-unsplash.jpg);
+        height: 2000px;
+        width: 40%;
+        margin: 8%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        border-radius: 20px;
+      }
+      .bb {
+        color: antiquewhite;
+        position: absolute;
+        /* font-size: large; */
+        top: 5%;
+        right: 5%;
+        font-style: bold;
+      }
+      .bb>h2 {
+        /* padding: 5%; */
+        margin-bottom: 15%;
+        color: black;
+        top: 10px;
+        /* font-style: bold; */
+        font-size: 45px;
+        /* text-indent: 30px; */
+      }
+      .bb>i {
+        background-color: rgb(136, 121, 7);
+        font-size: larger;
+        margin: 20px;
+        padding: 30px;
+        /* top: 10%; */
+        /* right: 20%; */
+        height: 100vh;
+        width: 30vw;
+        border-radius: 10px;
+        font-style: italic;
+      }
+      .bb>p {
+        color: aqua;
+        position: absolute;
+        top: 120%;
+        right: 40%;
+        /* left: 20%; */
+        /* text-indent: 20%; */
+      }
+      .bb>button {
+        position: absolute;
+        top: 160%;
+        right: 60%;
+        left: 1%;
+        background-color: coral;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .cc {
+        background-color: white;
+        position: absolute;
+        top: 70%;
+        left: 8%;
+        width: 85%;
+        height: 20%;
+        /* margin-left: 20%; */
+        padding-left: 60px;
+        padding-top: 50px;
+        /* padding-bottom: 40; */
+      }
+      .dd{
+        background-color: white;
+        color: black;
+        /* font-size: xx-large; */
+        /* text-size-adjust: 90%; */
+        font-size: 300%;
+        font-style: bold;
+        /* right: 40%; */
+        /* text-indent: 20%; */
+        margin-right: 50%;
+        padding-right: 20px;
+      }
+      .ee{
+        background-image: url(./neil-soni-6wdRuK7bVTE-unsplash.jpg);
+        left: 60%;
+        height: 450px;
+        position: relative;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 113%;
+        /* border-radius: 20px; */
+      }
+      h1 {
+        margin-top: 10%;
+        margin-left: 8%;
+        padding: 20px;
+        border-width: 10%;
+      }
+      p {
+        margin-left: 10%;
+        color: gray;
+        padding-bottom: 10px;
+        word-spacing: 10px;
+      }
+      i {
+        margin-left: 8%;
+        font-size: large;
+        font-style: normal;
+        padding: 2%;
+      }
+      .jd {
+        background-color: darkgrey;
+        height: 1000px;
+        font-size: larger;
+      }
+      .jd h1 {
+        color: black;
+        font-style: italic;
+        /* left: 50%; */
+        /* margin-top: 50%; */
+        text-align: center;
+        padding: 60px;
+      }
+      .ff {
+        background-image: url(./arif-riyanto-G1N9kDHqBrQ-unsplash.jpg);
+        position: absolute;
+        left: 8%;
+        right: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 50%;
+        width: 82%;
+      }
+      .ffa {
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        width: 20%;
+        /* left: 10%; */    
+        /* margin: 20%; */
+      }
+      .ffa>p {
+        margin-top: 10px;
+        padding-top: 10px;
+      }
+      .ffa>h2 {
+        margin: 23px;
+        /* padding: 10px; */
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <div class="hero">
+          <p><a class="navbar-brand text-bg-light" href="#"><i class="bi bi-hexagon-half"></i>    SoftwareM4</a></p>   
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="ms-auto my-3 overflow-auto flex-fill">
+            <div class="navbar-nav ">
+              <a class="nav-link text-dark mx-3" href="#">Home</a>
+              <a class="nav-link text-dark mx-3" href="#">About</a>
+              <a class="nav-link text-dark mx-3" href="#">Services</a>
+              <a class="nav-link text-dark mx-3" href="#">Contact</a>
+            </div>
+          </div>
+        <div class="navbar-nav sm-icons">
+          <li><a class="nav-link text-dark mx-2" href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a class="nav-link text-dark mx-2" href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a class="nav-link text-dark mx-2" href="#"><i class="bi bi-instagram"></i></a></li>
+        </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="root">
+        
+          <div class="hello">Developer Company </div> 
+          <h1>Software App</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Ab cupiditate rerum maxime quas suscipit provident.Deleniti doloremque cupiditate odio ipsum, asperiores at accusamus nihil, ad quae nostrum eius quo placeat!
+          </p>
+          <p>
+            <button>Our Services</button>
+            <button>Learn More</button>
+
+          </p>
+      </div>
+
+      <div class="demo">
+        <div class="aa"> </div>
+        <div class="bb">Core Features
+          <hr>
+          <h2>Best Business Software Solution</h2>
+          <i  class="bi bi-palette-fill">Design</i>
+          <i class="bi bi-hand-index-thumb">Usage</i>
+          <i class="bi bi-people-fill">Testing</i>
+          
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A nihil corporis doloribus quae fugiat dolores soluta ipsam consequuntur.</p>
+          <button>Read More</button>
+        </div>  
+        <div class = "cc">App Download
+          <div class = "dd">You Can control direct from your mobile</div>
+          <div class="ee"></div>
+        </div>
+        </div>
+        <h1>Our Goal</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae repellat minima alias et nulla voluptas nihil a tempora non, animi autem harum. Architecto deserunt expedita laudantium sint animi assumenda impedit?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nulla optio incidunt veritatis nesciunt vitae ratione mollitia soluta iusto consequuntur qui quo exercitationem, consectetur minima unde nostrum ad fugit eos.
+        </p>
+        <i class="bi bi-check-circle-fill"><span>App Design and Research</span></i>
+        <i class="bi bi-check-circle-fill"><span>Development and Testing</span></i>
+        <i class="bi bi-check-circle-fill"><span>App Design and Research</span></i>
+        <p></p>
+        <i class="bi bi-check-circle-fill"><span>Development and Testing</span></i>
+        <i class="bi bi-check-circle-fill"><span>App Design and Research</span></i>
+        <i class="bi bi-check-circle-fill"><span>Development and Testing</span></i>
+
+        <div class="jd">
+          <h1>Core Features</h1>
+          <div class="ff">
+            <div class="ffa">
+              <p>Software,Interface
+                <i class="bi bi-arrow-right-square"></i>
+              </p>
+              <h2>Development</h2>
+            </div>
+          </div>
+          <div class="gg"></div>
+          <div class="ii"></div>
+        </div>
+        
+   
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>
